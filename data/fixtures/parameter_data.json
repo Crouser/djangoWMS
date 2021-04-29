@@ -1,0 +1,27 @@
+[
+  {
+    "model": "data.Data",
+    "pk": 1,
+    "fields": {
+      "temperature": "21",
+      "pressure": "900"
+    }
+  },
+
+  {
+    "model": "data.Data",
+    "pk": 2,
+    "fields": {
+      "temperature": "22",
+      "pressure": "800"
+    }
+  },
+  {
+    "model": "data.Data",
+    "pk": 3,
+    "fields": {
+      "temperature": "23",
+      "pressure": "880"
+    }
+  }
+]
