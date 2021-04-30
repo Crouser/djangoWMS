@@ -12,7 +12,7 @@ class DataViewSet(viewsets.ModelViewSet):
 
 def home(request):
     context ={
-            'datas': Data.objects.all()
+            'datas': Data.objects.all().order_by('-dateTime')
               }
     return render(request,'data/home.html',context)
 
